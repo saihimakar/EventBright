@@ -15,6 +15,7 @@ services:
       DatabaseName: EventCatalogDB
       DatabaseUser: sa
       DatabaseUserPassword: ProductApi(!)
+      ExternalCatalogBaseUrl: http://localhost:5010
     container_name: EventCatalogAPI
     ports:
       - "5010:80"
